@@ -41,11 +41,8 @@ const STRATAGEMS = {
 'right-down-down-up': { name: 'Machine Gun', icon: 'images/Machine Gun.png', sound: 'sounds/confirm.mp3' },
 'up-right-down-right': { name: 'Eagle Airstrike', icon: 'images/Eagle Airstrike.png', sound: 'sounds/confirm.mp3' },
 'up-right-down-down-down': { name: 'Eagle 500KG Bomb', icon: 'images/Eagle 500KG Bomb.png', sound: 'sounds/confirm.mp3' },
-'up-right-up-up-right': { name: 'Shield Generator', icon: '🛡️', sound: null },
-'left-down-down-right': { name: 'Turret', icon: '🎯', sound: null },
-'up-up-down-down': { name: 'Jump Pack', icon: '🎒', sound: null },
-'right-right-down-up': { name: 'Railgun', icon: '⚡', sound: null },
-'down-up-up-down': { name: 'Hellbomb', icon: '💣', sound: null }
+'down-up-up-down-up': { name: 'Jump Pack', icon: 'images/Jump Pack.svg', sound: 'sounds/confirm.mp3' },
+'down-right-down-up-left-right': { name: 'Railgun', icon: 'images/Railgun.svg', sound: 'sounds/confirm.mp3' },
 };
 
 const ArrowIcon = ({ direction }) => {
@@ -157,4 +154,5 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(StratagemInput));
 </script>
 </body>
+
 </html>
